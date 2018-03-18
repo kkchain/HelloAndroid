@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+
+        <ImageView
+            style="@style/imageStyle"
+            android:src="@drawable/udacity_logo" />
+
+        <TextView
+            style="@style/quoteStyle"
+            android:paddingBottom="@dimen/textview_space1"
+            android:text="@string/quote"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size1" />
+
+        <TextView
+            style="@style/contentStyle"
+            android:paddingBottom="@dimen/font_size2"
+            android:text="@string/udacity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size2" />
+
+        <TextView
+            style="@style/contentStyle2"
+            android:autoLink="map"
+            android:text="@string/address1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size2" />
+
+        <TextView
+            style="@style/contentStyle3"
+            android:autoLink="phone"
+            android:paddingBottom="20dp"
+            android:text="@string/phone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size2" />
+
+        <TextView
+            style="@style/contentStyle4"
+            android:autoLink="web"
+            android:text="@string/website"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size2" />
+
+
+    </LinearLayout>
+</ScrollView>
